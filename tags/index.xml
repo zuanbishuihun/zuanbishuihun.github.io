@@ -3,5 +3,13 @@
         <title>Tags - 标签 - Lint My Life</title>
         <link>https://zuanbishuihun.github.io/tags/</link>
         <description>Tags - 标签 - Lint My Life</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://zuanbishuihun.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>limbozbl@gmail.com (Lint)</managingEditor>
+            <webMaster>limbozbl@gmail.com (Lint)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 06 Aug 2024 18:30:14 &#43;0800</lastBuildDate><atom:link href="https://zuanbishuihun.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>文档</title>
+    <link>https://zuanbishuihun.github.io/tags/%E6%96%87%E6%A1%A3/</link>
+    <pubDate>Tue, 06 Aug 2024 18:30:14 &#43;0800</pubDate><author>
+        <name>Lint</name>
+    </author><guid>https://zuanbishuihun.github.io/tags/%E6%96%87%E6%A1%A3/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>
