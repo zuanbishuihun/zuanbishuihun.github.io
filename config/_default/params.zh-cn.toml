@@ -1,15 +1,15 @@
 # site description
 # 网站描述
-description = "Hugo DoIt 主题官方文档"
+description = "Lint's Blog"
 # site keywords
 # 网站关键词
-keywords = ["Theme", "Hugo"]
+keywords = ["Lint", "Blog"]
 # App icon config
 # 应用图标配置
 [app]
 # optional site title override for the app when added to an iOS home screen or Android launcher
 # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-title = "DoIt"
+title = "Lint"
 # whether to omit favicon resource links
 # 是否隐藏网站图标资源链接
 noFavicon = false
@@ -77,13 +77,13 @@ enable = true
 gravatarEmail = "limbozbl@gmail.com"
 # URL of avatar shown in home page
 # 主页显示头像的 URL
-avatarURL = "/images/avatar.webp"
+avatarURL = ""
 # title shown in home page (HTML format is supported)
 # 主页显示的网站标题 (支持 HTML 格式)
-title = ""
+title = "Lint My Life"
 # subtitle shown in home page
 # 主页显示的网站副标题
-subtitle = "一个简洁、优雅且高效的 Hugo 主题"
+subtitle = "一个一直在路上的普通人"
 # whether to use typeit animation for subtitle
 # 是否为副标题显示打字机动画
 typeit = true
@@ -103,14 +103,16 @@ paginate = 7
 # Social config in home page
 # 主页的社交信息设置
 [social]
-QQ = ""
+BuyMeACoffee = ""
+Email = "limbozbl@gmail.com"
+GitHub = "zuanbishuihun"
 [social.Diaspora]
-id = "@xxxx"
-prefix = "https://yyyy/"
+# id = "@xxxx"
+# prefix = "https://yyyy/"
 # Sponsor config
 # 赞助设置
 [sponsor]
 enable = false
 bio = "如果你觉得这篇文章对你有所帮助，欢迎赞赏~"
-link = "https://github.com/sponsors/HEIGE-PCloud"
+# link = "https://github.com/sponsors/HEIGE-PCloud"
 # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"

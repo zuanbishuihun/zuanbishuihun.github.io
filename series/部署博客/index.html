@@ -7,20 +7,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="noodp" />
-    <title>部署博客 - 系列 - Lint My Life</title><meta name="Description" content="Hugo DoIt 主题官方文档"><meta property="og:url" content="https://zuanbishuihun.github.io/series/%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2/">
+    <title>部署博客 - 系列 - Lint My Life</title><meta name="Description" content="Lint&#39;s Blog"><meta property="og:url" content="https://zuanbishuihun.github.io/series/%E9%83%A8%E7%BD%B2%E5%8D%9A%E5%AE%A2/">
   <meta property="og:site_name" content="Lint My Life">
   <meta property="og:title" content="部署博客">
-  <meta property="og:description" content="Hugo DoIt 主题官方文档">
+  <meta property="og:description" content="Lint&#39;s Blog">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:type" content="website">
-    <meta property="og:image" content="https://zuanbishuihun.github.io/images/avatar.webp">
+    <meta property="og:image" content="https://zuanbishuihun.github.io/images/Apple-Devices-Preview.png">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://zuanbishuihun.github.io/images/avatar.webp">
+  <meta name="twitter:image" content="https://zuanbishuihun.github.io/images/Apple-Devices-Preview.png">
   <meta name="twitter:title" content="部署博客">
-  <meta name="twitter:description" content="Hugo DoIt 主题官方文档">
-<meta name="application-name" content="DoIt">
-<meta name="apple-mobile-web-app-title" content="DoIt">
+  <meta name="twitter:description" content="Lint&#39;s Blog">
+<meta name="application-name" content="Lint">
+<meta name="apple-mobile-web-app-title" content="Lint">
 
 <meta name="theme-color" content="#f8f8f8"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -34,7 +34,7 @@
         function setTheme(theme) {document.body.setAttribute('theme', theme); document.documentElement.style.setProperty('color-scheme', theme === 'light' ? 'light' : 'dark'); window.theme = theme; }
         function saveTheme(theme) {window.localStorage && localStorage.setItem('theme', theme);}
         function getMeta(metaName) {const metas = document.getElementsByTagName('meta'); for (let i = 0; i < metas.length; i++) if (metas[i].getAttribute('name') === metaName) return metas[i]; return '';}
-        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('dark' === 'light' || 'dark' === 'dark' || 'dark' === 'black') setTheme('dark'), saveTheme('dark'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
+        if (window.localStorage && localStorage.getItem('theme')) {let theme = localStorage.getItem('theme');theme === 'light' || theme === 'dark' || theme === 'black' ? setTheme(theme) : (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light')); } else { if ('light' === 'light' || 'light' === 'dark' || 'light' === 'black') setTheme('light'), saveTheme('light'); else saveTheme('auto'), window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? setTheme('dark') : setTheme('light');}
         let metaColors = {'light': '#f8f8f8','dark': '#252627','black': '#000000'}
         getMeta('theme-color').content = metaColors[document.body.getAttribute('theme')];
     </script>
@@ -45,7 +45,7 @@
             <a href="/" title="Lint My Life"><span class="header-title-pre"><i class='far fa-edit fa-fw'></i></span>Lint&#39;s Blog</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/series/"> 系列 </a><a class="menu-item" href="/about/"> 关于 </a><a class="menu-item" href="https://github.com/zuanbishuihun" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw'></i>  </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"><i class='fas fa-archive fa-fw'></i> 归档 </a><a class="menu-item" href="/tags/"><i class='fas fa-tags fa-fw'></i> 标签 </a><a class="menu-item" href="/categories/"><i class='fas fa-th-large fa-fw'></i> 分类 </a><a class="menu-item" href="/series/"><i class='fas fa-book fa-fw'></i> 系列 </a><a class="menu-item" href="/about/"><i class='fas fa-user fa-fw'></i> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
                         <a href="#" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
                             <i class="fas fa-search fa-fw"></i>
@@ -93,7 +93,7 @@
                     <a href="#" class="search-cancel" id="search-cancel-mobile">
                         取消
                     </a>
-                </div><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/series/" title="">系列</a><a class="menu-item" href="/about/" title="">关于</a><a class="menu-item" href="https://github.com/zuanbishuihun" title="GitHub" rel="noopener noreferrer" target="_blank"><i class='fab fa-github fa-fw'></i></a><a href="#" class="menu-item theme-select" title="切换主题">
+                </div><a class="menu-item" href="/posts/" title=""><i class='fas fa-archive fa-fw'></i>归档</a><a class="menu-item" href="/tags/" title=""><i class='fas fa-tags fa-fw'></i>标签</a><a class="menu-item" href="/categories/" title=""><i class='fas fa-th-large fa-fw'></i>分类</a><a class="menu-item" href="/series/" title=""><i class='fas fa-book fa-fw'></i>系列</a><a class="menu-item" href="/about/" title=""><i class='fas fa-user fa-fw'></i>关于</a><a href="#" class="menu-item theme-select" title="切换主题">
                 <i class="fas fa-adjust fa-fw"></i>
                 <select class="color-theme-select" id="theme-select-mobile" title="切换主题">
                     <option value="light">浅色</option>

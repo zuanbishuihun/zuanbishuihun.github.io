@@ -5,11 +5,11 @@
 identifier = "posts"
 # you can add extra information before the name (HTML format is supported), such as icons
 # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-pre = ""
+pre = "<i class='fas fa-archive fa-fw'></i>"
 # you can add extra information after the name (HTML format is supported), such as icons
 # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
 post = ""
-name = "所有文章"
+name = "归档"
 url = "/posts/"
 # title will be shown when you hover on this menu link.
 # 将鼠标悬停在此菜单链接上时将显示标题。
@@ -17,7 +17,7 @@ title = ""
 weight = 1
 [[main]]
 identifier = "tags"
-pre = ""
+pre = "<i class='fas fa-tags fa-fw'></i>"
 post = ""
 name = "标签"
 url = "/tags/"
@@ -25,7 +25,7 @@ title = ""
 weight = 2
 [[main]]
 identifier = "categories"
-pre = ""
+pre = "<i class='fas fa-th-large fa-fw'></i>"
 post = ""
 name = "分类"
 url = "/categories/"
@@ -33,7 +33,7 @@ title = ""
 weight = 3
 [[main]]
 identifier = "series"
-pre = ""
+pre = "<i class='fas fa-book fa-fw'></i>"
 post = ""
 name = "系列"
 url = "/series/"
@@ -41,17 +41,9 @@ title = ""
 weight = 4
 [[main]]
 identifier = "about"
-pre = ""
+pre = "<i class='fas fa-user fa-fw'></i>"
 post = ""
 name = "关于"
 url = "/about/"
 title = ""
 weight = 5
-[[main]]
-identifier = "github"
-pre = "<i class='fab fa-github fa-fw'></i>"
-post = ""
-name = ""
-url = "https://github.com/zuanbishuihun"
-title = "GitHub"
-weight = 6

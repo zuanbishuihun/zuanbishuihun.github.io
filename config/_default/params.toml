@@ -6,10 +6,10 @@ title = "Lint's Blog"
 version = "0.3.X"
 # site default theme ("light", "dark", "black", "auto")
 # 网站默认主题 ("light", "dark", "black", "auto")
-defaultTheme = "dark"
+defaultTheme = "light"
 # public git repo url only then enableGitInfo is true
 # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
-gitRepo = "https://github.com/HEIGE-PCloud/DoIt"
+# gitRepo = "https://github.com/zuanbishuihun.github.io"
 # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
 # 哪种哈希函数用来 SRI, 为空时表示不使用 SRI ("sha256", "sha384", "sha512", "md5")
 fingerprint = ""
@@ -18,7 +18,7 @@ fingerprint = ""
 dateFormat = "2006-01-02"
 # website images for Open Graph and Twitter Cards
 # 网站图片, 用于 Open Graph 和 Twitter Cards
-images = ["/images/avatar.webp"]
+images = ["images/Apple-Devices-Preview.png"]
 # enable PWA
 # 开启 PWA 支持
 enablePWA = false
@@ -277,24 +277,144 @@ enable = true
 # 评论系统设置
 [page.comment]
 enable = true
+# Disqus comment config (https://disqus.com/)
+# Disqus 评论系统设置 (https://disqus.com/)
+[page.comment.disqus]
+enable = false
+# Disqus shortname to use Disqus in posts
+# Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
+shortname = ""
+# Gitalk comment config (https://github.com/gitalk/gitalk)
+# Gitalk 评论系统设置 (https://github.com/gitalk/gitalk)
+[page.comment.gitalk]
+enable = false
+owner = ""
+repo = ""
+clientId = ""
+clientSecret = ""
+# Valine comment config (https://github.com/xCss/Valine)
+# Valine 评论系统设置 (https://github.com/xCss/Valine)
+[page.comment.valine]
+enable = false
+appId = ""
+appKey = ""
+placeholder = ""
+avatar = "mp"
+meta = ""
+pageSize = 10
+lang = "en"
+visitor = true
+recordIP = false
+highlight = true
+enableQQ = false
+serverURLs = ""
+# emoji data file name, default is "google.yml"
+# ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
+# located in "themes/DoIt/assets/data/emoji/" directory
+# you can store your own data files in the same path under your project:
+# "assets/data/emoji/"
+# emoji 数据文件名称, 默认是 "google.yml"
+# ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
+# 位于 "themes/DoIt/assets/data/emoji/" 目录
+# 可以在你的项目下相同路径存放你自己的数据文件:
+# "assets/data/emoji/"
+emoji = ""
+# Waline comment config (https://waline.js.org)
+# Waline 评论系统设置 (https://waline.js.org)
+[page.comment.waline]
+enable = false
+serverURL = "https://waline-comment-doit.vercel.app/"
+pageview = true
+comment = true
+# emoji = ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
+# meta = ['nick', 'mail', 'link']
+# requiredMeta = []
+# login = 'enable'
+# wordLimit = 0
+# pageSize = 10
+# imageUploader = false
+# highlighter = false
+# texRenderer = false
+# Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
+# Facebook 评论系统设置 (https://developers.facebook.com/docs/plugins/comments)
+[page.comment.facebook]
+enable = false
+width = "100%"
+numPosts = 10
+appId = ""
+languageCode = ""
+# Telegram comments config (https://comments.app/)
+# Telegram comments 评论系统设置 (https://comments.app/)
+[page.comment.telegram]
+enable = false
+siteID = ""
+limit = 5
+height = ""
+color = ""
+colorful = true
+dislikes = false
+outlined = false
+dark = false
+# Commento comment config (https://commento.io/)
+# Commento comment 评论系统设置 (https://commento.io/)
+[page.comment.commento]
+enable = false
+# Utterances comment config (https://utteranc.es/)
+# Utterances comment 评论系统设置 (https://utteranc.es/)
+[page.comment.utterances]
+enable = false
+# owner/repo
+repo = ""
+issueTerm = "pathname"
+label = ""
+lightTheme = "github-light"
+darkTheme = "github-dark"
+# Twikoo comment config (https://twikoo.js.org/)
+# Twikoo comment 评论系统设置 (https://twikoo.js.org/)
+[page.comment.twikoo]
+enable = false
+envId = "https://twikoo-comments-doit.vercel.app/"
+region = ""
+path = ""
+visitor = true
+commentCount = true
+# Vssue comment config (https://vssue.js.org//)
+# Vssue comment 评论系统设置 (https://vssue.js.org//)
+[page.comment.vssue]
+enable = false
+platform = ""     # ("bitbucket", "gitea", "gitee", "github", "gitlab")
+owner = ""
+repo = ""
+clientId = ""
+clientSecret = ""
+# Remark42 comment config (https://remark42.com/)
+# Remark42 comment 评论系统设置 (https://remark42.com/)
+[page.comment.remark42]
+enable = false
+host = ""
+site_id = ""
+max_shown_comments = 15
+show_email_subscription = true
+simple_view = false
 # giscus comment config (https://giscus.app/)
 # giscus comment 评论系统设置 (https://giscus.app/)
 [page.comment.giscus]
 enable = true
 # owner/repo
-data-repo = "zuanbishuihun/hugo-Lint-Blog-giscus"
-data-repo-id = "R_kgDOMf9Jcg"
-data-category = "Announcements"
-data-category-id = "DIC_kwDOMf9Jcs4Chbrt"
-data-mapping = "pathname"
-data-strict = "0"
-data-reactions-enabled = "1"
-data-emit-metadata = "0"
-data-input-position = "top"
-data-theme = "preferred_color_scheme"
-data-lang = "zh-CN"
-data-loading = "lazy"
-crossorigin = "anonymous"
+dataRepo = "zuanbishuihun/hugo-Lint-Blog-giscus"
+dataRepoId = "R_kgDOMf9Jcg"
+dataCategory = "Announcements"
+dataCategoryId = "DIC_kwDOMf9Jcs4Chbrt"
+dataMapping = "pathname"
+dataStrict = "0"
+dataReactionsEnabled = "1"
+dataEmitMetadata = "0"
+dataInputPosition = "top"
+lightTheme = "light"
+darkTheme = "dark"
+dataLang = "zh-CN"
+dataTheme = "preferred_color_scheme"
+dataLoading = "lazy"
 # Third-party library config
 # 第三方库配置
 [page.library]
@@ -326,7 +446,7 @@ images = []
 # Publisher info
 # 出版者信息
 [page.seo.publisher]
-name = "xxxx"
+name = "Lint"
 logoUrl = "/images/avatar.webp"
 # Related content config
 # 相关文章推荐配置
@@ -337,10 +457,10 @@ count = 5
 # Sponsor config
 # 赞助设置
 [sponsor]
-enable = false
+enable = true
 bio = "If you find this post helpful, please consider sponsoring."
 link = "https://github.com/sponsors/HEIGE-PCloud"
-# custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
+custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"
 
 # TypeIt config
 # TypeIt 配置
@@ -382,7 +502,7 @@ thumbnailUrl = "/images/screenshot.png"
 # Analytics config
 # 网站分析配置
 [analytics]
-enable = false
+enable = true
 # Google Analytics
 [analytics.google]
 id = ""
