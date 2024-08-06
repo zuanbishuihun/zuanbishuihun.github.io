@@ -413,7 +413,6 @@ dataInputPosition = "top"
 lightTheme = "light"
 darkTheme = "dark_dimmed"
 dataLang = "zh-CN"
-dataTheme = "preferred_color_scheme"
 dataLoading = "lazy"
 # Third-party library config
 # 第三方库配置
