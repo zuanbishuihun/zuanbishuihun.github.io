@@ -2,10 +2,12 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://zuanbishuihun.github.io/</loc><lastmod>2024-08-06T02:10:56&#43;08:00</lastmod></url><url>
-            <loc>https://zuanbishuihun.github.io/posts/</loc><lastmod>2024-08-06T02:10:56&#43;08:00</lastmod></url><url>
-            <loc>https://zuanbishuihun.github.io/posts/two_post/</loc><lastmod>2024-08-06T02:10:56&#43;08:00</lastmod></url><url>
-            <loc>https://zuanbishuihun.github.io/posts/one_post/</loc><lastmod>2024-08-06T02:03:49&#43;08:00</lastmod></url><url>
-            <loc>https://zuanbishuihun.github.io/posts/first_post/</loc><lastmod>2024-08-06T01:00:21&#43;08:00</lastmod></url><url>
-            <loc>https://zuanbishuihun.github.io/categories/</loc></url><url>
-            <loc>https://zuanbishuihun.github.io/tags/</loc></url></urlset>
+            <loc>https://zuanbishuihun.github.io/</loc><lastmod>2024-08-06T02:10:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zuanbishuihun.github.io/posts/</loc><lastmod>2024-08-06T02:10:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zuanbishuihun.github.io/two_post/</loc><lastmod>2024-08-06T02:10:56&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zuanbishuihun.github.io/one_post/</loc><lastmod>2024-08-06T02:03:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zuanbishuihun.github.io/first_post/</loc><lastmod>2024-08-06T01:00:21&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://zuanbishuihun.github.io/authors/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://zuanbishuihun.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://zuanbishuihun.github.io/series/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://zuanbishuihun.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>
