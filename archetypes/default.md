@@ -3,7 +3,7 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 subtitle: ""
 date: {{ .Date }}
 lastmod: {{ .Date }}
-draft: true
+draft: false
 authors: []
 description: ""
 
@@ -27,4 +27,4 @@ license: ""
 
 <!--more-->
 
-TODO 测试测试
+TODO

@@ -4,12 +4,19 @@
         <link>https://zuanbishuihun.github.io/authors/</link>
         <description>Authors - 作者 - Lint My Life</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>limbozbl@gmail.com (Lint)</managingEditor>
-            <webMaster>limbozbl@gmail.com (Lint)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 06 Aug 2024 18:30:14 &#43;0800</lastBuildDate><atom:link href="https://zuanbishuihun.github.io/authors/" rel="self" type="application/rss+xml" /><item>
-    <title>Lint</title>
-    <link>https://zuanbishuihun.github.io/authors/lint/</link>
-    <pubDate>Tue, 06 Aug 2024 18:30:14 &#43;0800</pubDate><author>
+            <webMaster>limbozbl@gmail.com (Lint)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 06 Mar 2020 16:29:59 &#43;0800</lastBuildDate><atom:link href="https://zuanbishuihun.github.io/authors/" rel="self" type="application/rss+xml" /><item>
+    <title>Dillon</title>
+    <link>https://zuanbishuihun.github.io/authors/dillon/</link>
+    <pubDate>Fri, 06 Mar 2020 16:29:59 &#43;0800</pubDate><author>
         <name>Lint</name>
-    </author><guid>https://zuanbishuihun.github.io/authors/lint/</guid>
+    </author><guid>https://zuanbishuihun.github.io/authors/dillon/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>PCloud</title>
+    <link>https://zuanbishuihun.github.io/authors/pcloud/</link>
+    <pubDate>Fri, 06 Mar 2020 16:29:59 &#43;0800</pubDate><author>
+        <name>Lint</name>
+    </author><guid>https://zuanbishuihun.github.io/authors/pcloud/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

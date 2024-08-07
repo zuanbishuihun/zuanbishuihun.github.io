@@ -175,7 +175,7 @@ seriesNavigation = true
 # Display a message at the beginning of an article to warn the reader that its content might be outdated.
 # 在文章开头显示提示信息，提醒读者文章内容可能过时。
 [page.outdatedArticleReminder]
-enable = true
+enable = false
 # Display the reminder if the last modified time is more than 90 days ago.
 # 如果文章最后更新于这天数之前，显示提醒
 reminder = 90
@@ -193,7 +193,7 @@ enable = true
 keepStatic = false
 # whether to make the table of the contents in the sidebar automatically collapsed
 # 是否使侧边目录自动折叠展开
-auto = true
+auto = false
 # Code config
 # 代码配置
 [page.code]
@@ -213,7 +213,7 @@ sort = true
 # whether to enable auto header numbering
 # 是否开启标题自动编号
 [page.header.number]
-enable = true
+enable = false
 [page.header.number.format]
 h2 = "{h2} {title}"
 h3 = "{h2}.{h3} {title}"
@@ -322,7 +322,7 @@ emoji = ""
 # Waline comment config (https://waline.js.org)
 # Waline 评论系统设置 (https://waline.js.org)
 [page.comment.waline]
-enable = false
+enable = true
 serverURL = "https://waline-comment-doit.vercel.app/"
 pageview = true
 comment = true
@@ -399,7 +399,7 @@ simple_view = false
 # giscus comment config (https://giscus.app/)
 # giscus comment 评论系统设置 (https://giscus.app/)
 [page.comment.giscus]
-enable = true
+enable = false
 # owner/repo
 dataRepo = "zuanbishuihun/hugo-Lint-Blog-giscus"
 dataRepoId = "R_kgDOMf9Jcg"
@@ -450,7 +450,7 @@ logoUrl = "/images/avatar.webp"
 # Related content config
 # 相关文章推荐配置
 [page.related]
-enable = true
+enable = false
 count = 5
 
 # Sponsor config

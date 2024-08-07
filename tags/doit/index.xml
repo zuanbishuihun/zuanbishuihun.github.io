@@ -1,0 +1,22 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>DoIt - 标签 - Lint My Life</title>
+        <link>https://zuanbishuihun.github.io/tags/doit/</link>
+        <description>DoIt - 标签 - Lint My Life</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>limbozbl@gmail.com (Lint)</managingEditor>
+            <webMaster>limbozbl@gmail.com (Lint)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 07 Aug 2024 19:37:39 &#43;0800</lastBuildDate><atom:link href="https://zuanbishuihun.github.io/tags/doit/" rel="self" type="application/rss+xml" /><item>
+    <title>如何部署hugo Doit主题</title>
+    <link>https://zuanbishuihun.github.io/how_to_deploy/</link>
+    <pubDate>Wed, 07 Aug 2024 19:37:39 &#43;0800</pubDate><author>
+        <name>Lint</name>
+    </author><guid>https://zuanbishuihun.github.io/how_to_deploy/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>如何在hugo DoIt主题博客上编写内容</title>
+    <link>https://zuanbishuihun.github.io/how_to_write_blog/</link>
+    <pubDate>Wed, 07 Aug 2024 19:19:34 &#43;0800</pubDate><author>
+        <name>Lint</name>
+    </author><guid>https://zuanbishuihun.github.io/how_to_write_blog/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>
