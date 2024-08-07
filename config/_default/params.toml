@@ -6,7 +6,7 @@ title = "Lint's Blog"
 version = "0.3.X"
 # site default theme ("light", "dark", "black", "auto")
 # 网站默认主题 ("light", "dark", "black", "auto")
-defaultTheme = "auto"
+defaultTheme = "light"
 # public git repo url only then enableGitInfo is true
 # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
 # gitRepo = "https://github.com/zuanbishuihun.github.io"
