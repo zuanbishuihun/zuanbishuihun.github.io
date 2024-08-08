@@ -1,9 +1,9 @@
 # site description
 # 网站描述
-description = "Lint's Blog"
+description = "这里是Lint的个人博客，目前专注于Java开发与云原生相关，对全栈感兴趣～"
 # site keywords
 # 网站关键词
-keywords = ["Lint", "Blog"]
+keywords = ["Lint", "Blog", "Java", "云原生", "全栈"]
 # App icon config
 # 应用图标配置
 [app]

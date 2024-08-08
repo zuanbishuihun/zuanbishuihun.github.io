@@ -2,7 +2,7 @@
     <channel>
         <title>Lint My Life</title>
         <link>https://zuanbishuihun.github.io/</link>
-        <description>Lint&#39;s Blog</description>
+        <description>这里是Lint的个人博客，目前专注于Java开发与云原生相关，对全栈感兴趣～</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>limbozbl@gmail.com (Lint)</managingEditor>
             <webMaster>limbozbl@gmail.com (Lint)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 07 Aug 2024 19:37:39 &#43;0800</lastBuildDate>
             <atom:link href="https://zuanbishuihun.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -19,7 +19,7 @@
     <pubDate>Wed, 07 Aug 2024 19:19:34 &#43;0800</pubDate><author>
         <name>Lint</name>
     </author><guid>https://zuanbishuihun.github.io/how_to_write_blog/</guid>
-    <description><![CDATA[]]></description>
+    <description><![CDATA[如何在hugo DoIt主题博客上编写内容，我现在就是随机输入一些内容希望这篇博客可以直接被检索到]]></description>
 </item><item>
     <title>主题文档 - 扩展 Shortcodes</title>
     <link>https://zuanbishuihun.github.io/theme-documentation-extended-shortcodes/</link>
