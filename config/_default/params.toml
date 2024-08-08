@@ -323,7 +323,7 @@ emoji = ""
 # Waline 评论系统设置 (https://waline.js.org)
 [page.comment.waline]
 enable = true
-serverURL = "https://waline-comment-doit.vercel.app/"
+serverURL = "https://waline-hugo-int-blog-da82755xp-lint980s-projects.vercel.app/"
 pageview = true
 comment = true
 # emoji = ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
@@ -446,7 +446,7 @@ images = []
 # 出版者信息
 [page.seo.publisher]
 name = "Lint"
-logoUrl = "/images/avatar.webp"
+logoUrl = "images/avatar.webp"
 # Related content config
 # 相关文章推荐配置
 [page.related]
@@ -493,10 +493,10 @@ sogou = ""
 [seo]
 # image URL
 # 图片 URL
-image = "/images/Apple-Devices-Preview.png"
+image = "/images/lint-roller.webp"
 # thumbnail URL
 # 缩略图 URL
-thumbnailUrl = "/images/screenshot.png"
+thumbnailUrl = "/images/site.webp"
 
 # Analytics config
 # 网站分析配置
