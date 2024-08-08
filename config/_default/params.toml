@@ -323,7 +323,7 @@ emoji = ""
 # Waline 评论系统设置 (https://waline.js.org)
 [page.comment.waline]
 enable = true
-serverURL = "https://waline-hugo-int-blog-da82755xp-lint980s-projects.vercel.app/"
+serverURL = "https://waline-hugo-int-blog.vercel.app/"
 pageview = true
 comment = true
 # emoji = ['https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo']
