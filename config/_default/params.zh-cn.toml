@@ -106,13 +106,15 @@ paginate = 7
 BuyMeACoffee = ""
 Email = "limbozbl@gmail.com"
 GitHub = "zuanbishuihun"
+RSS = true
 [social.Diaspora]
 # id = "@xxxx"
 # prefix = "https://yyyy/"
 # Sponsor config
 # 赞助设置
 [sponsor]
-enable = false
+enable = true
 bio = "如果你觉得这篇文章对你有所帮助，欢迎赞赏~"
+reward = "images/wechat-qrcode.webp"
 # link = "https://github.com/sponsors/HEIGE-PCloud"
 # custom = "<a href=\"https://www.buymeacoffee.com/PCloud\" target=\"_blank\"><img src=\"https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png\" alt=\"Buy Me A Coffee\" style=\"height: 40px !important;width: 145 !important;\" ></a>"

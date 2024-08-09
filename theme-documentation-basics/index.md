@@ -702,7 +702,7 @@ hugo
 
   # {{< version 0.2.13 >}} 赞赏配置
   [params.sponsor]
-    enable = false
+    enable = true
     bio = "如果你觉得这篇文章对你有所帮助，欢迎赞赏~"
     link = "https://www.buymeacoffee.com" # 你的赞赏页面的地址
     custom = "" # 自定义 HTML 

@@ -393,7 +393,42 @@ Hugo 提供了多个内置的 Shortcodes, 以方便作者保持 Markdown 内容�
       ></iframe>
     </div></div>
 
-        <div class="post-footer" id="post-footer">
+        <div class="sponsor">
+    <div class="sponsor-avatar"></div><p class="sponsor-bio"><em>如果你觉得这篇文章对你有所帮助，欢迎赞赏~</em></p><button
+        title="Sponsor"
+        target="_blank"
+        class="sponsor-button"
+        rel="noopener noreferrer"
+        onclick="toggleQRCode()"
+    >
+        <i class="far fa-heart fa-fw icon" style="color: #ec6cb9"></i>
+        <span>赞赏</span>
+    </button>
+
+    
+    <div id="qr-codes" style="display: none; margin-top: 10px">
+        <div>
+            <img
+                src="/wechat-qrcode.png"
+                alt="微信赞赏码"
+                style="max-width: 200px; border: 1px solid #ddd"
+                loading="lazy"
+            />
+        </div>
+    </div>
+    
+</div>
+
+<script>
+    function toggleQRCode() {
+        var qrCodesDiv = document.getElementById("qr-codes");
+        if (qrCodesDiv.style.display === "none") {
+            qrCodesDiv.style.display = "block";
+        } else {
+            qrCodesDiv.style.display = "none";
+        }
+    }
+</script><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">

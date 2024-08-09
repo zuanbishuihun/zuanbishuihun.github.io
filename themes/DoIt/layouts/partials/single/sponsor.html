@@ -20,16 +20,40 @@
     {{- end -}} {{- if $custom -}}
     <div class="sponsor-custom">{{- $custom | safeHTML -}}</div>
     {{- else -}}
-    <a
-        href="{{- $link -}}"
+    <button
         title="Sponsor"
         target="_blank"
         class="sponsor-button"
         rel="noopener noreferrer"
+        onclick="toggleQRCode()"
     >
         <i class="far fa-heart fa-fw icon" style="color: #ec6cb9"></i>
         <span>{{- T "sponsor" -}}</span>
-    </a>
-    {{- end -}}
+    </button>
+
+    <!-- 添加微信赞赏码 -->
+    <div id="qr-codes" style="display: none; margin-top: 10px">
+        <div>
+            <img
+                src="/wechat-qrcode.png"
+                alt="微信赞赏码"
+                style="max-width: 200px; border: 1px solid #ddd"
+                loading="lazy"
+            />
+        </div>
+    </div>
+    {{ end }}
 </div>
+
+<script>
+    function toggleQRCode() {
+        var qrCodesDiv = document.getElementById("qr-codes");
+        if (qrCodesDiv.style.display === "none") {
+            qrCodesDiv.style.display = "block";
+        } else {
+            qrCodesDiv.style.display = "none";
+        }
+    }
+</script>
+
 {{- end -}}
