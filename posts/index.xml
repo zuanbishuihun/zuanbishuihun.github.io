@@ -5,6 +5,13 @@
         <description>所有文章 | Lint My Life</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>limbozbl@gmail.com (Lint)</managingEditor>
             <webMaster>limbozbl@gmail.com (Lint)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 07 Aug 2024 19:37:39 &#43;0800</lastBuildDate><atom:link href="https://zuanbishuihun.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>部署Hugo Doit主题（一）原始框架搭建</title>
+    <link>https://zuanbishuihun.github.io/how_to_deploy1/</link>
+    <pubDate>Wed, 07 Aug 2024 19:37:39 &#43;0800</pubDate><author>
+        <name>Lint</name>
+    </author><guid>https://zuanbishuihun.github.io/how_to_deploy1/</guid>
+    <description><![CDATA[这是我个人搭建Hugo DoIt博客的步骤流程系列，包含部署以及配置site config、Gitpages + action、seo、域名等相关参数，希望可以帮助解决一些部署上的问题，也是为自己留下搭建流程作为记录]]></description>
+</item><item>
     <title>如何在hugo DoIt主题博客上编写内容</title>
     <link>https://zuanbishuihun.github.io/how_to_write_blog/</link>
     <pubDate>Wed, 07 Aug 2024 19:19:34 &#43;0800</pubDate><author>
@@ -55,12 +62,5 @@
     <description><![CDATA[<div class="featured-image">
                 <img src="/theme-documentation-extended-shortcodes/featured-image-preview.webp" referrerpolicy="no-referrer">
             </div><p><strong>DoIt</strong> 主题在 Hugo 内置的 shortcode 的基础上提供多个扩展的 shortcode.</p>]]></description>
-</item><item>
-    <title>如何部署hugo Doit主题</title>
-    <link>https://zuanbishuihun.github.io/how_to_deploy/</link>
-    <pubDate>Wed, 07 Aug 2024 19:37:39 &#43;0800</pubDate><author>
-        <name>Lint</name>
-    </author><guid>https://zuanbishuihun.github.io/how_to_deploy/</guid>
-    <description><![CDATA[]]></description>
 </item></channel>
 </rss>
